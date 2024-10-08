@@ -1,15 +1,49 @@
-/* Define custom font properties */
+/* Define custom color and font family properties */
+
 :root {
-    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-/* Set the font family for the body element */
-body {
+    --color-primary: #d73953; /* Primary color (e.g., for accents) */
+    --color-black: #090909; /* Black color */
+    --color-white: #ffffff; /* White color */
+    --color-light-grey: #f3f3f3; /* Light gray color */
+    --color-dark-grey: #353535; /* Dark gray color */
+    --text-color: var(--color-black); /* Default text color */
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Base font family */
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Title font family */
+  }
+  
+  /* Set the body font family and color */
+  
+  body {
     font-family: var(--font-family-base);
-}
-
-/* Set the font family for all section headings */
-h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+  }
+  
+  /* Hide elements with the visually-hidden class */
+  
+  .visually-hidden {
+    display: none;
+  }
+  
+  /* Set the font family for section headings */
+  
+  h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
-}
+  }
+  
+  /* Set the color for anchor elements */
+  
+  a {
+    color: var(--text-color);
+  }
+  
+  /* Set the color for card category elements */
+  
+  .card-category {
+    color: var(--color-primary);
+  }
+  
+  /* Set the color for section tagline elements */
+  
+  .section-tagline {
+    color: var(--color-primary);
+  }
