@@ -17,8 +17,8 @@
     --font-weight-regular: 400; /* Regular font weight */
     --font-weight-bold: 700; /* Bold font weight */
     --line-height-small: 1.2; /* Small line height */
-    --line-height-medium: 1.5; /* Medium line height */
-    --line-height-large: 1.8; /* Large line height */
+    --line-height-base: 1.5; /* Medium line height */
+    --line-height-big: 1.8; /* Large line height */
   }
   
   /* Set the base font size and enable smooth scrolling for the HTML element */
@@ -35,7 +35,7 @@
     color: var(--text-color); /* Apply the default text color */
     font-size: var(--font-size-medium); /* Set the body font size to medium */
     font-weight: var(--font-weight-regular); /* Set the body font weight to regular */
-    line-height: var(--line-height-medium); /* Set the body line height to medium */
+    line-height: var(--line-height-base); /* Set the body line height to medium */
   }
   
   /* Hide elements with the visually-hidden class */
