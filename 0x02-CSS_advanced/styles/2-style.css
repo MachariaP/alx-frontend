@@ -23,6 +23,6 @@ a {
 }
 
 /* Setting the foreground color for elements with the section-tagline class to #D73953 */
-.card-category {
+.section-tagline {
     color: #D73953;
 }
