@@ -1,0 +1,66 @@
+/* Define custom color, font family, and font weight properties */
+
+:root {
+    --color-primary: #d73953; /* Primary color (e.g., for accents) */
+    --color-black: #090909; /* Black color */
+    --color-white: #ffffff; /* White color */
+    --color-light-grey: #f3f3f3; /* Light gray color */
+    --color-dark-grey: #353535; /* Dark gray color */
+    --text-color: var(--color-black); /* Default text color */
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Base font family */
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Title font family */
+    --font-size-small: 1.2rem; /* Small font size */
+    --font-size-medium: 1.6rem; /* Medium font size */
+    --font-size-large: 1.8rem; /* Large font size */
+    --font-size-x-large: 2.3rem; /* Extra large font size */
+    --font-size-xx-large: 4.8rem; /* Extra extra large font size */
+    --font-weight-regular: 400; /* Regular font weight */
+    --font-weight-bold: 700; /* Bold font weight */
+  }
+  
+  /* Set the base font size and enable smooth scrolling for the HTML element */
+  
+  html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+    font-size: 62.5%; /* Set the base font size to 62.5% */
+  }
+  
+  /* Set the body font family, color, and weight */
+  
+  body {
+    font-family: var(--font-family-base); /* Apply the base font family */
+    color: var(--text-color); /* Apply the default text color */
+    font-size: var(--font-size-medium); /* Set the body font size to medium */
+    font-weight: var(--font-weight-regular); /* Set the body font weight to regular */
+  }
+  
+  /* Hide elements with the visually-hidden class */
+  
+  .visually-hidden {
+    display: none;
+  }
+  
+  /* Set the font family and weight for section headings */
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title); /* Apply the title font family */
+    font-weight: var(--font-weight-bold); /* Apply the bold font weight */
+  }
+  
+  /* Set the color for anchor elements */
+  
+  a {
+    color: var(--text-color);
+  }
+  
+  /* Set the color for card category elements */
+  
+  .card-category {
+    color: var(--color-primary);
+  }
+  
+  /* Set the color for section tagline elements */
+  
+  .section-tagline {
+    color: var(--color-primary);
+  }
