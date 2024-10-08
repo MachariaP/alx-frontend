@@ -1,0 +1,28 @@
+/* Setting some css rule to elements and classes */
+
+/* --- CSS rules --- */
+
+/* Setting the foreground color of the body  element to #161616 */
+body {
+    color: #161616;
+}
+
+/* Setting the foreground color for all anchor elements to #161616 */
+a {
+    color: #161616;
+}
+
+/* Hide elements with the visually-hidden class */
+.visually-hidden {
+    display: none;
+}
+
+/* Setting the foreground color for elements with the card-category class to #D73953 */
+.card-category {
+    color: #D73953;
+}
+
+/* Setting the foreground color for elements with the section-tagline class to #D73953 */
+.card-category {
+    color: #D73953;
+}
