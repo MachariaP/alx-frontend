@@ -57,12 +57,28 @@
   
   /* Set the color for anchor elements */
   
-  a {
+  a:link {
     color: var(--text-color);
     text-decoration: none; /* Remove the underline from anchor elements */
   }
-  
-  /* Set the color for card category elements */
+
+  /* Target visited anchor elements and italicize the text */
+  a:visited {
+    color: var(--color-primary);
+    font-style: italic;
+  }
+
+  /* Target hover anchor elements decorate links with underline hovering */
+  a:hover {
+    text-decoration: underline;
+  }
+    
+  /* Set the color for card category elements of the background */
+  a:active {
+    color: var(--color-primary);
+    background-color: var(--color-light-grey);
+  }
+
   
   .card-category {
     color: var(--color-primary);
