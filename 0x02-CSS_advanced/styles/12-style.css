@@ -64,7 +64,6 @@
 
   /* Target visited anchor elements and italicize the text */
   a:visited {
-    color: var(--color-primary);
     font-style: italic;
   }
 
@@ -75,7 +74,6 @@
     
   /* Set the color for card category elements of the background */
   a:active {
-    color: var(--color-primary);
     background-color: var(--color-light-grey);
   }
 
