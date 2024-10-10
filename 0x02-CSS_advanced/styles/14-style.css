@@ -10,20 +10,34 @@
     --color-light-grey: #f3f3f3; /* Light gray color */
     --color-dark-grey: #353535; /* Dark gray color */
     --text-color: var(--color-black); /* Default text color */
+
+
     --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Base font family */
     --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Title font family */
+    
+    
     --font-size-small: 1.2rem; /* Small font size */
     --font-size-medium: 1.6rem; /* Medium font size */
     --font-size-large: 1.8rem; /* Large font size */
     --font-size-x-large: 2.3rem; /* Extra large font size */
     --font-size-xx-large: 4.8rem; /* Extra extra large font size */
+    
+    
     --font-weight-regular: 400; /* Regular font weight */
     --font-weight-bold: 700; /* Bold font weight */
+    
+    
     --line-height-small: 1.2; /* Small line height */
     --line-height-base: 1.5; /* Medium line height */
     --line-height-big: 1.8; /* Large line height */
+    
+    
     --section-header-align: center; /* Center align section headers */
+    
+    
     --section-tagline-transform: uppercase; /* Uppercase section taglines */
+    
+    
     --section-title-margin: 0; /* Set the margin for section titles */
     --section-title-color: var(--color-black);
   }
