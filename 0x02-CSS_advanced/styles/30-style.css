@@ -183,7 +183,7 @@ a:hover {
   height: 0.2rem;
 }
 
-.nav .nav-item:hover .nav-link::before {
+.nav .nav-item:hover > .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
 }
@@ -263,9 +263,9 @@ a:hover {
 
 .card-work .card-inner {
   position: absolute;
-  top: -0.1;
-  left: -0.1;
-  right: -0.1;
+  top: -0.1rem;
+  left: -0.1rem;
+  right: -0.1rem;
   z-index: 1;
 }
 
@@ -290,9 +290,9 @@ a:hover {
 .card-work .card-title a::after {
   position: absolute;
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0;
   content: "";
 }
 
