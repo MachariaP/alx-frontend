@@ -116,7 +116,7 @@ a:hover {
 .button:hover {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
-  background-color: var(--button-hover-background);
+  background: var(--button-hover-background);
 }
 
 .navbar-menu {
@@ -213,7 +213,7 @@ a:hover {
   height: 10rem;
 }
 
-.cart-testimonial .card-quote cite {
+.card-testimonial .card-quote cite {
   display: block;
   padding-top: 1rem;
   color: var(--color-primary);
